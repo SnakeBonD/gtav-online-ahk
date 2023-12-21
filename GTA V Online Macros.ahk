@@ -798,8 +798,8 @@ TogglePassive:
 RetrieveCar:
   openInteractionMenu(IsVIPActivated, IsCPHActivated, true)
   if !ManualInventoryLocation
-    Send {%IGB_Down%}{%IGB_Down%}
-  Send {%IGB_Down% 3}{%IGB_Enter%}{%IGB_Enter%}{%IGB_Interaction%}
+;    Send {%IGB_Down%}{%IGB_Down%}
+  Send {%IGB_Down% 2}{%IGB_Enter%}{%IGB_Enter%}{%IGB_Interaction%}
   return
 
 ; Chooses on-call random heist from phone options
